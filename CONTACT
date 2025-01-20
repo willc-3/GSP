@@ -1,0 +1,244 @@
+###CONTACT
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ontario Nature</title>
+
+ 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #4CAF50, #81C784); 
+            color: #333;
+            margin: 0;
+        }
+
+        header {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8rem;
+        }
+
+        nav {
+            background-color: #388E3C;
+            display: flex;
+            justify-content: center;
+            padding: 12px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #2C6E2F;
+        }
+
+        
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #2E7D32;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .contact-info,
+        .contact-form {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        .contact-info div,
+        .contact-form form {
+            width: 48%;
+        }
+
+        .contact-info h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .contact-form label {
+            font-size: 1.2rem;
+            color: #333;
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        .contact-form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s;
+        }
+
+        .contact-form button:hover {
+            background-color: #388E3C;
+        }
+
+        .map-container {
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2rem;
+        }
+
+       
+        @media (max-width: 768px) {
+            .contact-info,
+            .contact-form {
+                flex-direction: column;
+            }
+
+            .contact-info div,
+            .contact-form form {
+                width: 100%;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Ontario Nature</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+
+        <div class="contact-info">
+            <div>
+                <h3>Our Office</h3>
+                <p>Ontario Nature<br>Centre for Social Innovation<br>720 Bathurst Street, Toronto, Ontario M5S 2R4</p>
+            </div>
+            <div>
+                <h3>Phone & Email</h3>
+                <p>Phone: 416-444-8419<br>Toll-Free: 1-800-440-2366<br>Email: info@ontarionature.org</p>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Get in Touch</h3>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="map-container">
+    <h3>Find Us on the Map</h3>
+   
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11124.097013809745!2d-79.4086159!3d43.6591389!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb6a3fddfa69%3A0xf9cc68bbba9cc951!2s720%20Bathurst%20St%2C%20Toronto%2C%20ON%20M5S%202R4!5e0!3m2!1sen!2sca!4v1611298302190!5m2!1sen!2sca" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Ontario Nature. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
