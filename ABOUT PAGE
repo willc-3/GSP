@@ -1,0 +1,70 @@
+### ABOUT PAGE 
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Ontario's natural wonders and stunning landscapes.">
+    <title>Ontario Nature Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Ontario Nature Site</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="Agate-Island-Beach">
+            <h2>Agate Island Beach</h2>
+            <p>Agate Island Long Beach was named one of the top seven wonder beaches in the world (2013). It's known for its stunning views, sandy shores, unique agate stones covering the beach, and the historic Pukaskwa Pitts. Located in Thunder Bay, this site is a must-see natural wonder.</p>
+            <img src="https://assets.onecompiler.app/42t5refts/42twuzgq8/top_10_ontario_natural_wonders_-_Agate_Island_Beach_1_-_HomeAway.JPG" alt="View of Agate Island Beach with agate stones and sandy shores" width="600" height="400">
+        </section>
+
+        <section id="Bonnechere-Caves">
+            <h2>Bonnechere Caves</h2>
+            <p>Ontario is famous for its diverse and scenic hiking spots. With 3,852 incredible trails across the province, including 545 wheelchair-friendly sites, it offers something for everyone to explore. The Bonnechere Caves are one of the prime locations for discovering Ontario’s rich natural beauty.</p>
+            <img src="https://assets.onecompiler.app/42t5refts/42twuzgq8/top_10_ontario_natural_wonders_-_Bonnechere_Caves_2_-_HomeAway.JPG" alt="Interior view of Bonnechere Caves showcasing its natural rock formations" width="600" height="400">
+        </section>
+
+        <section id="Bruce-Peninsula-National-Park">
+            <h2>Bruce Peninsula National Park</h2>
+            <p>Bruce Peninsula National Park is home to towering cedars that have stood for centuries, overlooking the crystal-clear waters of Georgian Bay. The park features limestone barrens, expansive forests, and is one of Canada's most beloved natural sites.</p>
+            <img src="https://assets.onecompiler.app/42t5refts/42twuzgq8/top_10_ontario_natural_wonders_-_Bruce_Peninsula_National_Park_8_-_HomeAway.jpg" alt="Limestone cliffs and cedar trees in Bruce Peninsula National Park" width="600" height="400">
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                Ontario Nature @ Centre for Social Innovation<br>
+                720 Bathurst Street, Toronto, Ontario<br>
+                M5S 2R4<br>
+                416-444-8419, toll-free (within Ontario): 1-800-440-2366<br>
+                info@ontarionature.org<br>
+                Office hours: Monday to Friday, 9 a.m. – 5 p.m.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ontario Nature. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
