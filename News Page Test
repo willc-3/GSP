@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-     <meta name="viewport" content="width=device-width, initial_scale=1.0"/>
-     <meta name="description" content="Become notified  on environmen based news plus   biodiversity located in Ontario. "/>
-    <meta property="og:title" content="Ontario Nature Site  - News"/>
-    <meta property="og:description" content="Become notified  on environmen based  news plus  biodiversity located in Ontario. "/>
-<meta property="og:image"   content="https://assets.onecompiler.app/42t5refts/42twuzgq8/green.jpeg">
-    <meta property="og:url"  content="http://www.ontarionature.com/news">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stay updated on environmental news, politics, and biodiversity in Ontario. Learn more about the province’s conservation efforts and natural heritage.">
+    <meta property="og:title" content="Ontario Nature Site - News">
+    <meta property="og:description" content="Stay updated on environmental news, politics, and biodiversity in Ontario.">
+    <meta property="og:image" content="https://assets.onecompiler.app/42t5refts/42twuzgq8/green.jpeg">
+    <meta property="og:url" content="http://www.ontarionature.com/news">
     <meta name="twitter:card" content="summary_large_image">
-     <title>News - Ontario Nature Site</title>
-    <link rel="stylesheet"  href="styles.css">
+    <title>News - Ontario Nature Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Ontario Nature Site  - News</h1>
+        <h1>Ontario Nature Site - News</h1>
         <nav>
-<ul>
-                <li><a  href="index.html">Home</a></li>
-                <li><a  href="news.html">News</a></li>
-                <li><a  href="contact.html">Contact</a></li>
-<li><a href="about.html">About</a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
         </nav>
     </header>
-<main>
-    <h2>Latest  News!</h2>
-    <img  src="https://assets.onecompiler.app/42t5refts/42twuzgq8/green.jpeg" alt="A beautiful landscape of Ontario">
-     <article>
-<p>This  article  discusses  the  intersection  of  environmental  factors <h3>Environmental and Politics politics and in Ontario's Ontario, Nature</h3>
- highlighting  the  importance  of  preserving  the     province's natural landscapes and ecosystems.</p>
-        <a  href="https://thenarwhal.ca/southern-ontario-nature-economy/">Read more</a>
-    </article>
-     <article>
-<h3>Guelph and Ontario's  Biodiversity</h3>\\
-explore  how  environmental  groups  across  Ottawa  and  Ontario
-learn are more working about to the protect critical our role natural of heritage.
-biodiversity  in  Guelph,  and        read and more here
-<h3>Ontario Nature: A  Glimpse into the Wilderness</h3>
-        <p>This feature showcases stunning photography of Ontario's  trails and explores various species, habitats, and conservation efforts taking place across the province.</p>
-         <a href="https://ontarionature.org/about/on-nature-magazine/">Read  more</a>
-    </article>
-<img   src="https://assets.onecompiler.app/42t5refts/42twuzgq8/bonnechere-e1655258115362.jpg.avif" alt="A scenic view of Bonnechere Caves">
-</main>
- <footer>
-    <p>&copy; 2024 Ontario Nature. All rights reserved.</p>
- </footer>
+
+    <main>
+        <h2>Latest News!</h2>
+        <img src="https://assets.onecompiler.app/42t5refts/42twuzgq8/green.jpeg" alt="A beautiful landscape of Ontario">
+        
+        <article>
+            <h3>Environmental Politics and Ontario's Nature</h3>
+            <p>This article discusses the intersection of environmental factors and politics in Ontario, highlighting the importance of preserving the province's natural landscapes and ecosystems.</p>
+            <a href="https://thenarwhal.ca/southern-ontario-nature-economy/">Read more</a>
+        </article>
+
+        <article>
+            <h3>Guelph and Ontario's Biodiversity</h3>
+            <p>Learn more about the critical role of biodiversity in Guelph, and explore how environmental groups across Ottawa and Ontario are working to protect our natural heritage.</p>
+            <a href="https://globalnews.ca/tag/ontario-nature/">Read more</a>
+        </article>
+
+        <article>
+            <h3>Ontario Nature: A Glimpse into the Wilderness</h3>
+            <p>This feature showcases stunning photography of Ontario's trails and explores various species, habitats, and conservation efforts taking place across the province.</p>
+            <a href="https://ontarionature.org/about/on-nature-magazine/">Read more</a>
+        </article>
+
+        <img src="https://assets.onecompiler.app/42t5refts/42twuzgq8/bonnechere-e1655258115362.jpg.avif" alt="A scenic view of Bonnechere Caves">
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ontario Nature. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
